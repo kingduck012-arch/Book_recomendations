@@ -1,0 +1,373 @@
+/* =========================
+GENERAL
+========================= */
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Noto Sans Thai", sans-serif;
+    color: #444;
+    background-color: #FFF9F4;
+}
+
+.benefit-card {
+    background-color: #FFFFFF;
+}
+
+/* =========================
+HEADER
+========================= */
+
+.main-header {
+position: sticky;
+top: 0;
+z-index: 1000;
+background-color: rgba(255, 255, 255, 0.96);
+border-bottom: 1px solid #eee;
+backdrop-filter: blur(8px);
+}
+
+.logo {
+    width: auto;
+    height: 80px;
+    object-fit: contain;
+}
+.navbar-nav {
+    gap: 35px;
+}
+
+.nav-link {
+    font-family: "Noto Sans Thai", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #555 !important;
+}
+
+.nav-link:hover {
+color: #222 !important;
+}
+
+.buy-btn {
+    background-color: #555;
+    color: #fff !important;
+    border-radius: 5px;
+    padding: 7px 20px !important;
+    margin-left: 0;
+}
+
+.buy-btn:hover {
+background-color: #333;
+}
+
+/* =========================
+HERO
+========================= */
+
+.hero {
+padding: 55px 0 65px;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    max-height: 420px;
+    object-fit: contain;
+    display: block;
+}
+.hero-content {
+padding-left: 25px;
+}
+
+.hero-title {
+    font-family: "Mitr", sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 1.35;
+}
+
+.hero-description {
+    font-family: "Noto Sans Thai", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+.title-orange {
+    color: #f9b658;
+}
+
+.title-purple {
+    color: #6e4d95;
+}
+
+.title-pink {
+    color: #ef7c92;
+}
+
+/* =========================
+CONTENT
+========================= */
+section[id] {
+    scroll-margin-top: 120px;
+}
+.content-section {
+    padding: 20px 0 35px;
+}
+
+.section-title {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.summary-title {
+    color: #6e4d95 !important;
+}
+
+.why-title {
+    color: #ef7c92 !important;
+}
+
+.benefit-section .section-title {
+    color: #f9b658 !important;
+}
+.section-text {
+line-height: 1.8;
+margin-bottom: 5px;
+font-size: 19px;
+}
+
+/* =========================
+BENEFIT CARDS
+========================= */
+
+.benefit-section {
+padding: 5px 0 55px;
+}
+
+.benefit-card {
+position: relative;
+height: 100%;
+min-height: 245px;
+border: 1px solid #E5DDEB;
+border-radius: 0;
+padding: 30px 18px 20px;
+background-color: #fff;
+transition: 0.25s ease;
+}
+
+.benefit-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.card-number {
+position: absolute;
+top: 5px;
+left: 7px;
+font-size: 0.85rem;
+font-weight: 500;
+}
+
+.card-image {
+width: 48px;
+height: 48px;
+object-fit: contain;
+margin: 0 auto 12px;
+display: block;
+}
+
+.benefit-title {
+text-align: center;
+font-size: 1rem;
+font-weight: 500;
+line-height: 1.5;
+margin-bottom: 12px;
+}
+
+.benefit-text {
+font-size: 0.9rem;
+line-height: 1.65;
+margin: 0;
+}
+
+/* =========================
+FOOTER
+========================= */
+
+.book-footer {
+padding: 40px 0 25px;
+background-color: #6e4d95;
+    color: #FFFFFF;
+border-top: 1px solid #eee;
+}
+
+.book-cover {
+width: 125px;
+height: 150px;
+object-fit: cover;
+background-color: #ddd;
+}
+
+.book-title {
+font-size: 1.15rem;
+margin-bottom: 8px;
+}
+
+.book-description {
+font-size: 18px;
+line-height: 1.6;
+}
+
+.detail-btn,
+.top-btn {
+background-color: #444;
+color: #fff;
+border: none;
+border-radius: 4px;
+padding: 8px 25px;
+text-decoration: none;
+display: inline-block;
+transition: 0.2s;
+}
+
+.detail-btn:hover,
+.top-btn:hover {
+background-color: #222;
+color: #fff;
+}
+
+.footer-quote {
+text-align: right;
+font-size: 18px;
+line-height: 1.7;
+}
+
+.copyright {
+margin-top: 30px;
+padding-top: 15px;
+border-top: 1px solid #ddd;
+text-align: center;
+font-size: 0.8rem;
+color: #fbfafa;
+}
+
+/* =========================
+MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+.hero {
+    padding: 30px 0 40px;
+}
+
+.hero-content {
+    padding-left: 0;
+    padding-top: 25px;
+}
+
+.hero-title {
+    font-size: 1.8rem;
+}
+
+.hero-description {
+    text-align: center;
+}
+
+.benefit-card {
+    min-height: auto;
+}
+
+.footer-quote {
+    text-align: left;
+    margin-top: 25px;
+}
+
+.book-cover {
+    margin-bottom: 20px;
+}
+
+}
+/* =========================
+   HERO IMAGE GALLERY
+========================= */
+
+.main-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-image img {
+    width: 100%;
+    height: auto;
+    max-height: 650px;
+    object-fit: contain;
+    display: block;
+}
+
+.thumbnail {
+    width: 100%;
+    height: 150px;
+    padding: 3px;
+    border: 2px solid transparent;
+    background: transparent;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.2s;
+    outline: none;
+    box-shadow: none;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.thumbnail:hover {
+    opacity: 1;
+}
+
+.thumbnail.active {
+    opacity: 1;
+    border: 2px solid #555;
+}
+
+.thumbnail:focus,
+.thumbnail:focus-visible {
+    outline: none;
+    box-shadow: none;
+}
+/* =========================
+   CONTENT BOX
+========================= */
+
+.content-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #E5DDEB;
+    border-radius: 12px;
+    padding: 30px 35px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(110, 77, 149, 0.08);
+}
+.about-funny-text {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #888;
+}
+.about-funny {
+    padding: 20px 0 60px;
+}
+
+.about-funny-image {
+    width: 220px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}

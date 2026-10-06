@@ -371,3 +371,577 @@ MOBILE
     display: block;
     margin: 0 auto;
 }
+/* =========================
+   FAQ
+========================= */
+
+.faq-section {
+    background-color: #FFF9F4;
+}
+
+.faq-section .content-box {
+    margin-bottom: 0;
+}
+
+.faq-section .accordion {
+    --bs-accordion-border-color: #E5DDEB;
+    --bs-accordion-border-radius: 8px;
+}
+
+.faq-section .accordion-item {
+    background-color: #fff;
+    border-color: #E5DDEB;
+}
+
+.faq-section .accordion-button {
+    font-family: "Noto Sans Thai", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #444;
+    background-color: #fff;
+    padding: 18px 20px;
+    box-shadow: none;
+}
+
+.faq-section .accordion-button:not(.collapsed) {
+    color: #6e4d95;
+    background-color: #F8F2FC;
+    box-shadow: none;
+}
+
+.faq-section .accordion-button:focus {
+    box-shadow: none;
+    border-color: transparent;
+}
+
+.faq-section .accordion-body {
+    font-family: "Noto Sans Thai", sans-serif;
+    font-size: 17px;
+    line-height: 1.8;
+    color: #555;
+    background-color: #fff;
+    padding: 18px 20px 22px;
+}
+
+
+/* =========================
+   TADOKORO COVER
+========================= */
+
+.tadokoro-cover-section {
+    padding: 55px 0 70px;
+    background-color: #FFF9F4;
+}
+
+.cover-title {
+    text-align: center;
+    color: #6e4d95 !important;
+    font-family: "Mitr", sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+}
+
+#tadokoroCover {
+    position: relative;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 20px 70px 55px;
+
+    background-color: #FFFFFF;
+    border: 1px solid #E5DDEB;
+    border-radius: 15px;
+
+    box-shadow: 0 5px 18px rgba(110, 77, 149, 0.08);
+
+    overflow: hidden;
+}
+
+
+/* รูปปก */
+
+.tadokoro-cover-image {
+    width: 100%;
+    height: 430px;
+
+    object-fit: contain;
+    display: block;
+
+    margin: 0 auto;
+}
+
+
+/* =========================
+   ปุ่มเลื่อนซ้าย / ขวา
+========================= */
+
+#tadokoroCover .carousel-control-prev,
+#tadokoroCover .carousel-control-next {
+    width: 55px;
+    opacity: 1;
+}
+
+#tadokoroCover .carousel-control-prev {
+    left: 5px;
+}
+
+#tadokoroCover .carousel-control-next {
+    right: 5px;
+}
+
+#tadokoroCover .carousel-control-prev-icon,
+#tadokoroCover .carousel-control-next-icon {
+    width: 38px;
+    height: 38px;
+
+    background-color: #6e4d95;
+    background-size: 55%;
+
+    border-radius: 50%;
+}
+
+
+/* =========================
+   จุดด้านล่าง
+========================= */
+
+#tadokoroCover .carousel-indicators {
+    bottom: 12px;
+    margin-bottom: 0;
+}
+
+#tadokoroCover .carousel-indicators button {
+    width: 9px;
+    height: 9px;
+
+    border-radius: 50%;
+    border: none;
+
+    background-color: #D8CBE2;
+    opacity: 1;
+
+    margin: 0 5px;
+}
+
+#tadokoroCover .carousel-indicators button.active {
+    background-color: #ef7c92;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+    /* FAQ */
+
+    .faq-section .accordion-button {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .faq-section .accordion-body {
+        font-size: 15px;
+        padding: 15px;
+    }
+
+
+    /* Cover */
+
+    .tadokoro-cover-section {
+        padding: 40px 0 50px;
+    }
+
+    .cover-title {
+        font-size: 1.5rem;
+        margin-bottom: 18px;
+    }
+
+    #tadokoroCover {
+        max-width: 95%;
+        padding: 15px 45px 50px;
+        border-radius: 12px;
+    }
+
+    .tadokoro-cover-image {
+        height: 350px;
+    }
+
+    #tadokoroCover .carousel-control-prev,
+    #tadokoroCover .carousel-control-next {
+        width: 40px;
+    }
+
+    #tadokoroCover .carousel-control-prev {
+        left: 0;
+    }
+
+    #tadokoroCover .carousel-control-next {
+        right: 0;
+    }
+
+    #tadokoroCover .carousel-control-prev-icon,
+    #tadokoroCover .carousel-control-next-icon {
+        width: 30px;
+        height: 30px;
+    }
+}
+/* =========================
+   IMAGE REFERENCES
+========================= */
+
+.image-reference-section {
+
+    padding: 65px 0 70px;
+
+    background-color: #FFF9F4;
+
+}
+
+
+/* =========================
+   TITLE
+========================= */
+
+.image-reference-title {
+
+    text-align: center;
+
+    color: #6e4d95 !important;
+
+    font-family: "Mitr", sans-serif;
+
+    font-size: 1.8rem;
+
+    margin-bottom: 10px;
+
+}
+
+
+.image-reference-description {
+
+    text-align: center;
+
+    font-family: "Noto Sans Thai", sans-serif;
+
+    font-size: 16px;
+
+    color: #777;
+
+    margin-bottom: 30px;
+
+}
+
+
+/* =========================
+   REFERENCE LIST
+========================= */
+
+.reference-list {
+
+    max-width: 850px;
+
+    margin: 0 auto;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 14px;
+
+}
+
+
+/* =========================
+   REFERENCE ITEM
+========================= */
+
+.reference-item {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 18px;
+
+    padding: 18px 20px;
+
+    background-color: #FFFFFF;
+
+    border: 1px solid #E5DDEB;
+
+    border-radius: 12px;
+
+    text-decoration: none;
+
+    box-shadow: 0 4px 14px rgba(110, 77, 149, 0.05);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        border-color 0.3s ease;
+
+}
+
+
+/* Hover */
+
+.reference-item:hover {
+
+    transform: translateY(-3px);
+
+    border-color: #D8CBE2;
+
+    box-shadow: 0 7px 20px rgba(110, 77, 149, 0.10);
+
+}
+
+
+/* =========================
+   REFERENCE LOGO
+========================= */
+
+.reference-logo {
+
+    width: 55px;
+
+    height: 55px;
+
+    flex-shrink: 0;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 10px;
+
+    background-color: #F8F2FC;
+
+    padding: 6px;
+
+    overflow: hidden;
+
+    transition: transform 0.3s ease;
+
+}
+
+
+.reference-logo img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: contain;
+
+    display: block;
+
+}
+
+
+.reference-item:hover .reference-logo {
+
+    transform: scale(1.05);
+
+}
+
+
+/* =========================
+   CONTENT
+========================= */
+
+.reference-content {
+
+    flex: 1;
+
+}
+
+
+.reference-content h3 {
+
+    margin: 0 0 3px;
+
+    font-family: "Mitr", sans-serif;
+
+    font-size: 18px;
+
+    font-weight: 500;
+
+    color: #444;
+
+}
+
+
+.reference-content p {
+
+    margin: 0 0 2px;
+
+    font-family: "Noto Sans Thai", sans-serif;
+
+    font-size: 15px;
+
+    color: #666;
+
+}
+
+
+.reference-content span {
+
+    font-family: "Noto Sans Thai", sans-serif;
+
+    font-size: 13px;
+
+    color: #999;
+
+}
+
+
+/* =========================
+   REFERENCE ARROW
+========================= */
+
+.reference-arrow {
+
+    width: 38px;
+    height: 38px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    color: #6e4d95;
+
+    background-color: #F8F2FC;
+
+    font-size: 17px;
+
+    transition:
+        transform 0.3s ease,
+        background-color 0.3s ease,
+        color 0.3s ease;
+
+}
+
+
+/* Hover */
+
+.reference-item:hover .reference-arrow {
+
+    transform: translate(3px, -3px);
+
+    background-color: #6e4d95;
+
+    color: #FFFFFF;
+
+}
+
+
+.reference-item:hover .reference-arrow {
+
+    transform: translate(2px, -2px);
+
+    background-color: #6e4d95;
+
+    color: #FFFFFF;
+
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+    .image-reference-section {
+
+        padding: 45px 0 50px;
+
+    }
+
+
+    .image-reference-title {
+
+        font-size: 1.5rem;
+
+    }
+
+
+    .image-reference-description {
+
+        font-size: 14px;
+
+        padding: 0 15px;
+
+        margin-bottom: 22px;
+
+    }
+
+
+    .reference-list {
+
+        padding: 0 15px;
+
+        gap: 10px;
+
+    }
+
+
+    .reference-item {
+
+        gap: 12px;
+
+        padding: 14px;
+
+    }
+
+
+    .reference-icon {
+
+        width: 42px;
+
+        height: 42px;
+
+        font-size: 18px;
+
+    }
+
+
+    .reference-content h3 {
+
+        font-size: 16px;
+
+    }
+
+
+    .reference-content p {
+
+        font-size: 14px;
+
+    }
+
+
+    .reference-content span {
+
+        font-size: 12px;
+
+    }
+
+
+    .reference-arrow {
+
+        width: 32px;
+
+        height: 32px;
+
+        font-size: 14px;
+
+    }
+
+}
